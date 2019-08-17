@@ -33,7 +33,9 @@ $(document).ready(function() {
     })
       .then(function(res) {
         if (res.success) {
+          // go back to previous page
           window.location.href = "/login";
+          // history.go(-1);
         }
       })
       .catch(function(err) {
