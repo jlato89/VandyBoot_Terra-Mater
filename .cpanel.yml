@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=~/domains/terramater
+    - /bin/cp -R * $DEPLOYPATH
